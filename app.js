@@ -1242,7 +1242,7 @@ function onSwipeEnd(e) {
           parent: item.parentNode,
           nextSibling: item.nextSibling,
           name: songNameToRemove,
-          index: indexToRemove
+          index: indexToRemove,
           mysong: mySongs[songNameToRemove]  // save My Song
         };
         
